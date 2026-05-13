@@ -1,0 +1,234 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-12-15",
+  "announcements": {
+    "title": "Latest Announcement",
+    "message": "Welcome to QuantumMC+! Check out our latest features and updates below.",
+    "type": "info",
+    "active": true
+  },
+  "updates": [
+    {
+      "id": 1,
+      "version": "1.0.0",
+      "date": "2024-12-15",
+      "title": "Initial Release",
+      "description": "First official release of QuantumMC+ utility client",
+      "features": [
+        "Combat module suite (Aura, AutoTotem, Criticals, KeyPearl)",
+        "Advanced movement systems (Speed, Step, Sprint, SafeWalk)",
+        "Rendering enhancements (Fullbright, ESP, Tracers, BlockHighlight)",
+        "Player utilities (AutoTool, AutoEat, AutoRepair, NoFall)",
+        "Comprehensive HUD system",
+        "Command system with customizable keybinds"
+      ],
+      "bugFixes": [
+        "Fixed initial render issues",
+        "Optimized memory usage",
+        "Improved module responsiveness"
+      ],
+      "changelog": "Complete rewrite from Oyvey for modern Minecraft 1.21.x",
+      "highlights": true
+    },
+    {
+      "id": 2,
+      "version": "0.9.5",
+      "date": "2024-12-01",
+      "title": "Beta Release",
+      "description": "Beta testing phase with community feedback",
+      "features": [
+        "Core module framework",
+        "Basic UI implementation",
+        "Configuration system"
+      ],
+      "bugFixes": [],
+      "changelog": "Initial beta for testing",
+      "highlights": false
+    }
+  ],
+  "features": {
+    "combat": {
+      "title": "Combat",
+      "icon": "⚔️",
+      "modules": [
+        {
+          "name": "Aura",
+          "description": "Attacks nearest entity in range with configurable target filtering",
+          "status": "active"
+        },
+        {
+          "name": "AutoTotem",
+          "description": "Automatically equips a totem when health drops below threshold",
+          "status": "active"
+        },
+        {
+          "name": "Criticals",
+          "description": "Ensures every hit registers as a critical",
+          "status": "active"
+        },
+        {
+          "name": "KeyPearl",
+          "description": "Throws an ender pearl from inventory with a single keybind",
+          "status": "active"
+        }
+      ]
+    },
+    "movement": {
+      "title": "Movement",
+      "icon": "🏃",
+      "modules": [
+        {
+          "name": "Speed",
+          "description": "Strafe-based speed multiplier",
+          "status": "active"
+        },
+        {
+          "name": "Step",
+          "description": "Auto-step up blocks",
+          "status": "active"
+        },
+        {
+          "name": "Sprint",
+          "description": "Automatic sprinting with multi-directional support",
+          "status": "active"
+        },
+        {
+          "name": "SafeWalk",
+          "description": "Prevents falling off edges",
+          "status": "active"
+        }
+      ]
+    },
+    "render": {
+      "title": "Render",
+      "icon": "👁️",
+      "modules": [
+        {
+          "name": "Fullbright",
+          "description": "Increases world brightness",
+          "status": "active"
+        },
+        {
+          "name": "ESP",
+          "description": "Highlights entities with colored bounding boxes",
+          "status": "active"
+        },
+        {
+          "name": "Tracers",
+          "description": "Draws lines/boxes toward nearby entities",
+          "status": "active"
+        },
+        {
+          "name": "BlockHighlight",
+          "description": "Wireframe overlay on looked-at block",
+          "status": "active"
+        }
+      ]
+    },
+    "player": {
+      "title": "Player",
+      "icon": "👤",
+      "modules": [
+        {
+          "name": "AutoTool",
+          "description": "Automatically switches to best tool when mining",
+          "status": "active"
+        },
+        {
+          "name": "AutoEat",
+          "description": "Automatically eats when hunger is low",
+          "status": "active"
+        },
+        {
+          "name": "AutoRepair",
+          "description": "Detects and warns on low-durability items",
+          "status": "active"
+        },
+        {
+          "name": "FastPlace",
+          "description": "Removes right-click delay",
+          "status": "active"
+        },
+        {
+          "name": "NoFall",
+          "description": "Negates fall damage via packet spoofing",
+          "status": "active"
+        },
+        {
+          "name": "Velocity",
+          "description": "Reduces/cancels knockback",
+          "status": "active"
+        }
+      ]
+    },
+    "hud": {
+      "title": "HUD",
+      "icon": "📊",
+      "modules": [
+        {
+          "name": "Coordinates",
+          "description": "XYZ position with nether coordinate conversion",
+          "status": "active"
+        },
+        {
+          "name": "FPS",
+          "description": "Frames-per-second counter",
+          "status": "active"
+        },
+        {
+          "name": "Status",
+          "description": "Health and hunger display",
+          "status": "active"
+        },
+        {
+          "name": "Watermark",
+          "description": "Client name and version overlay",
+          "status": "active"
+        }
+      ]
+    },
+    "client": {
+      "title": "Client",
+      "icon": "⚙️",
+      "modules": [
+        {
+          "name": "Notifications",
+          "description": "Configurable module toggle notifications",
+          "status": "active"
+        },
+        {
+          "name": "NotificationOverlay",
+          "description": "On-screen toast notifications",
+          "status": "active"
+        }
+      ]
+    }
+  },
+  "downloads": {
+    "latest": {
+      "version": "1.0.0",
+      "url": "https://github.com/driizzyy/quantumMC-plus/releases/download/MC-1.21.11/QuantumMC-plus-1.0.0.jar",
+      "size": "2.5 MB",
+      "minecraftVersion": "1.21.11",
+      "fabricVersion": "0.18.4",
+      "releaseDate": "2024-12-15"
+    },
+    "alternative": {
+      "github": "https://github.com/driizzyy/quantumMC-plus/releases",
+      "source": "https://github.com/driizzyy/quantumMC-plus"
+    }
+  },
+  "social": {
+    "discord": "",
+    "github": "https://github.com/driizzyy/quantumMC-plus",
+    "twitter": "",
+    "youtube": ""
+  },
+  "theme": {
+    "primary": "#00ff88",
+    "secondary": "#00ccff",
+    "tertiary": "#ff00ff",
+    "bgDark": "#0f0f23",
+    "bgDarker": "#0a0a15"
+  }
+}

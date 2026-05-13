@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QuantumMC+ - A modern GUI Minecraft utility client for Fabric 1.21.x">
+    <meta name="theme-color" content="#0f0f23">
+    <title>QuantumMC+ | Advanced Minecraft Client</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%230f0f23' width='100' height='100'/><rect fill='%2300ff88' x='20' y='20' width='30' height='30'/><rect fill='%2300ccff' x='50' y='20' width='30' height='30'/></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">⚛</span>
+                    <span>QuantumMC+</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#download" class="nav-link">Download</a></li>
+                    <li><a href="#installation" class="nav-link">Installation</a></li>
+                    <li><a href="#commands" class="nav-link">Commands</a></li>
+                    <li><a href="#contact" class="nav-link btn-primary">Join Discord</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="stars"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    QuantumMC<span class="plus">+</span>
+                </h1>
+                <p class="hero-subtitle">
+                    A Modern GUI Minecraft Utility Client for Fabric 1.21.x
+                </p>
+                <p class="hero-description">
+                    Experience next-generation gameplay with advanced combat, movement, and rendering modules. Based on Oyvey Ported, reimagined for modern Minecraft.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-large btn-primary">Download Now</a>
+                    <a href="https://github.com/driizzyy/quantumMC-plus" target="_blank" class="btn btn-large btn-secondary">View on GitHub</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="quantum-orb"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Features</h2>
+            <p class="section-subtitle">Everything you need for an enhanced Minecraft experience</p>
+            
+            <div class="features-grid">
+                <!-- Combat -->
+                <div class="feature-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">⚔️</span>
+                        Combat
+                    </h3>
+                    <ul class="feature-list">
+                        <li><strong>Aura</strong> - Auto-attack nearest entity with filtering</li>
+                        <li><strong>AutoTotem</strong> - Auto-equip totem at low health</li>
+                        <li><strong>Criticals</strong> - Guarantee critical hits</li>
+                        <li><strong>KeyPearl</strong> - Throw ender pearls instantly</li>
+                    </ul>
+                </div>
+
+                <!-- Movement -->
+                <div class="feature-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🏃</span>
+                        Movement
+                    </h3>
+                    <ul class="feature-list">
+                        <li><strong>Speed</strong> - Strafe-based speed multiplier</li>
+                        <li><strong>Step</strong> - Auto-step up blocks</li>
+                        <li><strong>Sprint</strong> - Multi-directional sprinting</li>
+                        <li><strong>SafeWalk</strong> - Prevents edge falls</li>
+                    </ul>
+                </div>
+
+                <!-- Render -->
+                <div class="feature-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">👁️</span>
+                        Render
+                    </h3>
+                    <ul class="feature-list">
+                        <li><strong>Fullbright</strong> - Increase world brightness</li>
+                        <li><strong>ESP</strong> - Entity highlighting system</li>
+                        <li><strong>Tracers</strong> - Lines toward nearby entities</li>
+                        <li><strong>BlockHighlight</strong> - Wireframe overlays</li>
+                    </ul>
+                </div>
+
+                <!-- Player -->
+                <div class="feature-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">👤</span>
+                        Player
+                    </h3>
+                    <ul class="feature-list">
+                        <li><strong>AutoTool</strong> - Auto-switch to best tool</li>
+                        <li><strong>AutoEat</strong> - Eat when hungry</li>
+                        <li><strong>AutoRepair</strong> - Durability warnings</li>
+                        <li><strong>NoFall</strong> - Cancel fall damage</li>
+                    </ul>
+                </div>
+
+                <!-- HUD -->
+                <div class="feature-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">📊</span>
+                        HUD
+                    </h3>
+                    <ul class="feature-list">
+                        <li><strong>Coordinates</strong> - XYZ with nether conversion</li>
+                        <li><strong>FPS Counter</strong> - Performance monitoring</li>
+                        <li><strong>Status Display</strong> - Health & hunger</li>
+                        <li><strong>Watermark</strong> - Client branding overlay</li>
+                    </ul>
+                </div>
+
+                <!-- Client -->
+                <div class="feature-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">⚙️</span>
+                        Client
+                    </h3>
+                    <ul class="feature-list">
+                        <li><strong>Notifications</strong> - Module toggles</li>
+                        <li><strong>Overlay Toasts</strong> - On-screen alerts</li>
+                        <li><strong>MCF</strong> - Friends system</li>
+                        <li><strong>ChatFilter</strong> - Message filtering</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title">Get Started</h2>
+            <p class="section-subtitle">Quick access to all downloads and resources</p>
+            
+            <div class="download-grid">
+                <div class="download-card">
+                    <div class="download-icon">📦</div>
+                    <h3>Latest Release</h3>
+                    <p>MC 1.21.11</p>
+                    <a href="https://github.com/driizzyy/quantumMC-plus/releases" target="_blank" class="btn btn-primary">Download JAR</a>
+                </div>
+
+                <div class="download-card">
+                    <div class="download-icon">🔗</div>
+                    <h3>Source Code</h3>
+                    <p>GitHub Repository</p>
+                    <a href="https://github.com/driizzyy/quantumMC-plus" target="_blank" class="btn btn-primary">View Repo</a>
+                </div>
+
+                <div class="download-card">
+                    <div class="download-icon">💬</div>
+                    <h3>Community</h3>
+                    <p>Join Our Discord</p>
+                    <a href="#" class="btn btn-primary" data-discord>Discord Server</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Section -->
+    <section id="installation" class="installation">
+        <div class="container">
+            <h2 class="section-title">Installation Guide</h2>
+            <p class="section-subtitle">Get QuantumMC+ running in minutes</p>
+            
+            <div class="installation-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Install Minecraft 1.21.11</h3>
+                    <p>Download and install Minecraft Java Edition 1.21.11 from the official launcher.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Install Fabric Loader 0.18.4</h3>
+                    <p>Download Fabric Loader from <a href="https://fabricmc.net" target="_blank">fabricmc.net</a> and run the installer for 1.21.11.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Download QuantumMC+ JAR</h3>
+                    <p>Get the latest JAR from <a href="https://github.com/driizzyy/quantumMC-plus/releases" target="_blank">Releases</a> page.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Place in Mods Folder</h3>
+                    <p>Move the JAR file into your <code>.minecraft/mods/</code> folder.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>(Optional) Fabric API</h3>
+                    <p>Install Fabric API 0.141.1+1.21.11 for enhanced compatibility.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">6</div>
+                    <h3>Launch & Enjoy</h3>
+                    <p>Select Fabric profile in launcher and start playing with QuantumMC+!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keybinds Section -->
+    <section id="keybinds" class="keybinds">
+        <div class="container">
+            <h2 class="section-title">Default Keybinds</h2>
+            <p class="section-subtitle">Get familiar with essential controls</p>
+            
+            <div class="keybinds-table-wrapper">
+                <table class="keybinds-table">
+                    <thead>
+                        <tr>
+                            <th>Key</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><kbd>Right Shift</kbd></td>
+                            <td>Open ClickGUI</td>
+                        </tr>
+                        <tr>
+                            <td><kbd>Right Control</kbd></td>
+                            <td>Open HUD Editor</td>
+                        </tr>
+                        <tr>
+                            <td><kbd>. (Period)</kbd></td>
+                            <td>Command Prefix</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="keybinds-note">💡 Configure custom keybinds per-module via ClickGUI or use the <code>.bind &lt;module&gt; &lt;key&gt;</code> command.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commands Section -->
+    <section id="commands" class="commands">
+        <div class="container">
+            <h2 class="section-title">Essential Commands</h2>
+            <p class="section-subtitle">Master the command system</p>
+            
+            <div class="commands-grid">
+                <div class="command-card">
+                    <code>.bind &lt;module&gt; &lt;key&gt;</code>
+                    <p>Bind a key to any module</p>
+                </div>
+
+                <div class="command-card">
+                    <code>.toggle &lt;module&gt;</code>
+                    <p>Enable or disable a module</p>
+                </div>
+
+                <div class="command-card">
+                    <code>.friend &lt;add/remove/list/clear&gt;</code>
+                    <p>Manage your friends list</p>
+                </div>
+
+                <div class="command-card">
+                    <code>.drawn &lt;module&gt;</code>
+                    <p>Show/hide in array list</p>
+                </div>
+
+                <div class="command-card">
+                    <code>.prefix &lt;char&gt;</code>
+                    <p>Change command prefix</p>
+                </div>
+
+                <div class="command-card">
+                    <code>.profile [list/set/delete]</code>
+                    <p>Manage configuration profiles</p>
+                </div>
+
+                <div class="command-card">
+                    <code>.help [page]</code>
+                    <p>List all available commands</p>
+                </div>
+
+                <div class="command-card">
+                    <code>.&lt;module&gt;</code>
+                    <p>Configure module settings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Announcements Section -->
+    <section class="announcements">
+        <div class="container">
+            <div id="announcement-box" class="announcement-box" style="display: none;">
+                <div class="announcement-header">
+                    <span class="announcement-icon">📢</span>
+                    <span id="announcement-title" class="announcement-title"></span>
+                </div>
+                <p id="announcement-message" class="announcement-message"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Updates Section -->
+    <section id="updates" class="updates">
+        <div class="container">
+            <h2 class="section-title">Latest Updates</h2>
+            <p class="section-subtitle">Stay up to date with the newest changes and features</p>
+            
+            <div id="updates-container" class="updates-container">
+                <!-- Dynamically loaded from config.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Modules</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1.21.x</div>
+                    <div class="stat-label">Latest MC Support</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">MIT</div>
+                    <div class="stat-label">Open Source</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Building from Source -->
+    <section class="build-guide">
+        <div class="container">
+            <h2 class="section-title">Build from Source</h2>
+            <p class="section-subtitle">For developers and contributors</p>
+            
+            <div class="code-block">
+                <pre><code>git clone https://github.com/driizzyy/quantumMC-plus.git
+cd quantumMC-plus
+./gradlew build</code></pre>
+                <p class="code-note">Built JAR will be in <code>build/libs/</code></p>
+            </div>
+
+            <div class="contributing-info">
+                <h3>Want to Contribute?</h3>
+                <p>Contributions are welcome! Check out the <a href="https://github.com/driizzyy/quantumMC-plus/blob/main/CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a> for guidelines.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Footer Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get Involved</h2>
+            <p class="section-subtitle">Join the community and stay updated</p>
+            
+            <div class="contact-links">
+                <a href="https://github.com/driizzyy/quantumMC-plus" target="_blank" class="contact-link">
+                    <span class="link-icon">🐙</span>
+                    <span>GitHub Repository</span>
+                </a>
+                <a href="#" class="contact-link" data-discord>
+                    <span class="link-icon">💬</span>
+                    <span>Discord Server</span>
+                </a>
+                <a href="https://github.com/driizzyy" target="_blank" class="contact-link">
+                    <span class="link-icon">👤</span>
+                    <span>Developer Profile</span>
+                </a>
+                <a href="https://github.com/mioclient/oyvey-ported" target="_blank" class="contact-link">
+                    <span class="link-icon">📦</span>
+                    <span>Original Oyvey</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>QuantumMC+</h4>
+                    <p>A modern GUI Minecraft utility client for Fabric 1.21.x</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="https://github.com/driizzyy/quantumMC-plus">GitHub</a></li>
+                        <li><a href="https://github.com/driizzyy/quantumMC-plus/releases">Downloads</a></li>
+                        <li><a href="https://github.com/driizzyy/quantumMC-plus/blob/main/CONTRIBUTING.md">Contribute</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Info</h4>
+                    <ul>
+                        <li><a href="https://github.com/driizzyy/quantumMC-plus/blob/main/LICENSE">MIT License</a></li>
+                        <li><a href="https://github.com/mioclient/oyvey-ported">Based on Oyvey</a></li>
+                        <li>Made with ❤️</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 QuantumMC+. All rights reserved. | By <a href="https://github.com/driizzyy" target="_blank">@driizzyyB</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Discord Link -->
+    <div id="discordModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3>Discord Link</h3>
+            <p>Please enter your Discord server invite link in the JavaScript file:</p>
+            <p class="modal-note">Edit <code>script.js</code> and update the <code>DISCORD_LINK</code> variable.</p>
+            <p style="margin-top: 20px; font-size: 12px; opacity: 0.7;">You can find the default Discord link used in this template by checking the script file.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
