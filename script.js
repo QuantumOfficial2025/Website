@@ -3,7 +3,7 @@
 // ========================================
 
 // Configuration
-let DISCORD_LINK = 'https://discord.gg/'; // UPDATE THIS WITH YOUR ACTUAL DISCORD SERVER LINK
+let DISCORD_LINK = 'https://discord.gg/TCsHTxvk7W'; // UPDATE THIS WITH YOUR ACTUAL DISCORD SERVER LINK
 const CONFIG = {
     smoothScroll: true,
     animationsEnabled: true,
